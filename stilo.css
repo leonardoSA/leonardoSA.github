@@ -5,11 +5,10 @@ background-color: lightblue;
 }
 
 .menu{
+
 	display: block;
-	text-align: center;
+	text-align: left;
 	background-color: #111111;
 	padding: 16px;
 	color: white;
-	
-
 }
