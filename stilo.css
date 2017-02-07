@@ -1,0 +1,15 @@
+body{
+
+background-color: lightblue;
+
+}
+
+.menu{
+	display: block;
+	text-align: center;
+	background-color: #111111;
+	padding: 16px;
+	color: white;
+	
+
+}
