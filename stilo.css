@@ -1,39 +1,100 @@
 body{
 
-background-color: lightblue;
+ background-color: lightblue;
  margin: 0;
  padding: 0;
+ font-family: "Comic Sans MS", cursive, sans-serif;    
 }
 
-/*.menu{
+h2{
+    margin:0; 
+}
 
-	display: block;
-	text-align: left;
-	background-color: #111111;
-	padding: 16px;
-	color: white;
-}*/
+h4{
 
-ul {
+    text-decoration: underline;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img{
+    display: table-cell;
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px 10px;
+    border-radius: 50px;
+    float: left;
+/*FAZER TEXTO DESCER*/
+}
+
+#menu ul{
+    background-color: #333333;
     list-style-type: none;
     margin: 0;
     padding: 0 ;
-	overflow: hidden;
-   background-color: #333333;
+    overflow: hidden;
+    display: block;    
+    text-align: right;
+    width: 100%;
 }
 
-li {
-    float: left;
+#menu ul li {
+    display: inline;
 }
 
-li a {
-    display: block;
+
+#menu li a {
+    display: inline-block;
     color: white;
-    text-align: center;
     padding: 20px;
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: #111111;
+#menu li a:hover {
+    background-color: #D6D6D6;
 }
+
+.corpo{
+    width: 960px;
+    margin: auto;
+}
+
+.conteudo{
+    display: table;
+}
+
+.Ficha{
+    display: table-cell;
+    float: left;
+    line-height: 1.0;
+    width: 500px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+#Sobre{
+   /*display: table-cell;*/
+   line-height: 0.8;
+}
+
+.Experiencias{
+   line-height: 0.8;
+   /*margin-bottom: 48px;*/
+}
+
+#Contatos{
+    /*padding-top: 0;*/
+    /*padding-bottom: 0;*/
+    /*width: 500px;*/
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo{
+    margin: 0;
+    padding-top: 0;
+    border: 0;
+}
+
