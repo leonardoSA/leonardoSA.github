@@ -26,13 +26,7 @@ img{
     border-radius: 50px;
     float: left;
     max-width: 100%;
-/*FAZER TEXTO DESCER*/
 }
-
-#menu{
-    /*width: 100%;*/
-}
-
 
 #menu ul{
     background-color: #333333;
@@ -108,7 +102,6 @@ p,h4,h2{
 
    #menu ul{
         width: 100%;
-        /*display: relative;*/
     }
     img{
         display: block;
@@ -192,7 +185,6 @@ p,h4,h2{
 @media only screen and (max-width: 768px) {
    #menu ul{
         width: 100%;
-        /*display: block;*/
     }
     img{
         display: block;
