@@ -206,3 +206,55 @@ p,h4,h2{
         float: right;
     }
 }
+
+
+@media only screen and (max-width: 1024px) {
+   #menu ul{
+        width: 100%;
+    }
+    img{
+        display: block;
+    }
+    .Ficha{
+        width: 100%;
+        height: 150px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    #Sobre,#Contatos{
+        width: 100%;
+        float: right;
+    }
+
+    .Portifolio,.Experiencias,.Conteudo{
+        width: 100%;
+        float: right;
+    }
+}
+
+
+@media only screen and (max-width: 1280px) {
+   #menu ul{
+        width: 100%;
+    }
+    img{
+        display: block;
+    }
+    .Ficha{
+        width: 100%;
+        height: 150px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    #Sobre,#Contatos{
+        width: 100%;
+        float: right;
+    }
+
+    .Portifolio,.Experiencias,.Conteudo{
+        width: 100%;
+        float: right;
+    }
+}
