@@ -126,6 +126,11 @@ p,h4,h2{
     .Experiencias{
         line-height: 1.3;
     }
+
+    h4{
+        margin-top: 25px;
+    }
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -156,6 +161,10 @@ p,h4,h2{
         line-height: 1.3;
     }
 
+      h4{
+        margin-top: 30px;
+    }
+
 }
 
 @media only screen and (max-width: 640px) {
@@ -176,8 +185,9 @@ p,h4,h2{
         float: right;
     }
 
-    .Portifolio,.Experiencias,.conteudo{
+    .Portifolio,.Experiencias,.Conteudo{
         width: 100%;
+        height: 100%;
         float: right;
     }
 }
@@ -190,8 +200,8 @@ p,h4,h2{
         display: block;
     }
     .Ficha{
+        float: left;
         width: 100%;
-        height: 150px;
         margin-bottom: 30px;
         margin-top: 10px;
     }
@@ -227,7 +237,7 @@ p,h4,h2{
         float: right;
     }
 
-    .Portifolio,.Experiencias,.Conteudo{
+    .Portifolio,.Experiencias{
         width: 100%;
         float: right;
     }
