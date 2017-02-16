@@ -190,6 +190,11 @@ p,h4,h2{
         height: 100%;
         float: right;
     }
+
+    .Experiencias{
+        line-height: 1.3;
+    }
+    
 }
 
 @media only screen and (max-width: 768px) {
