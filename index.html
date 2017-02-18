@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
   <head>
 	<meta charset="UTF-8">
@@ -18,22 +18,46 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->  
   </head>
-
   <body>
-    <nav id="menu">    
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">    
+        <!--Menu-->
+            <div>
+                <ul class="nav navbar-nav">
+                    <li> 
+                        <a href="index.html"><span class="glyphicon glyphicon-home" style="color:blue;"></span> Home</a>
+                    </li>
+                    <li> 
+                        <a href="#Sobre"><span class="glyphicon glyphicon-info-sign" style="color:blue;"></span> Sobre</a> </li>
+                    <li> 
+                        <a href="#Contatos"><span class="glyphicon glyphicon-phone-alt" style="color:blue;"></span> Contatos</a> 
+                    </li>
+                </ul>
 
-        <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#Sobre">Sobre</a></li>
-            <li><a href="#Contatos">Contatos</a></li>
-        </ul>
-     </nav> 
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                    <button type="button" class="btn btn-default btn-md" style="color:blue; margin-top:10px">
+                        <a href="https://github.com/leonardoSA/leonardoSA.github.io"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Ver no GitHub</a>
+                    </button>
+                    </li>
+                </ul>
+            </div>
+      </div>
+    </nav>
 
     <section class="corpo">
 
+    <!-- ESSE grid é de exemplo -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-1" style="background-color:lavender;">Já Pensou</div>
+            <div class="col-sm-10" style="background-color:ligthgreen;">Em aprender algo </div>
+            <div class="col-sm-1" style="background-color:lavender;">novo hoje ?</div>
+        </div>
+    </div>
         <div class= "conteudo">
       
-            <img src="foto1.png" alt="leonardo" width="160" height="185">
+            <img src="foto1.png" alt="leonardo" width="220" height="200">
             
             <div class="Ficha">
                 <h2 id="nome">Leonardo dos Santos Araujo</h2>
@@ -44,7 +68,7 @@
             </div>
     
             <div id="Sobre">
-                <h4>CONHECIMENTOS:</h4>
+                <h4 style="margin-top: 20px">CONHECIMENTOS:</h4>
                 <p>Possuo conhecimentos em python.</p>
                 <p>Possuo Conhecimentos em HTML E CSS.</p>
                 <p>Possuo Conhecimentos em Android.</p>
@@ -70,20 +94,28 @@
                 <h4>CONTATOS:</h4>
                     <div class="logo">
                         <a href="https://www.facebook.com/leonardo.araujo.5">
-                            <img src="Facebook.png" alt="facebook" width="42" height="42">
+                            <img src="Facebook.png" alt="facebook" style="margin-bottom: 50px" class="img-circle" width="110" height="90">
                         </a>
                         <a href="https://plus.google.com/117191979300470866731">
-                            <img src="google.png" alt="google+" width="42" height="40">
+                            <img src="google.png" alt="google+" style="margin-bottom: 50px" class="img-circle" width="110" height="90">
                         </a>
                         <a href="https://github.com/leonardoSA">
-                            <img src="github.png" alt="github" width="42" height="42">
+                            <img src="github.png" alt="github" style="margin-bottom: 50px" class="img-circle" width="110" height="90">
                         </a>
                    </div>
             </div>
 
         </div>
     </section>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <div class="footer navbar-inverse navbar-fixed-bottom" >
+        <div class="container">
+            <div class="navbar-text pull-right"> 
+            <p>Desenvolvido por Leonardo Araujo - 2017.</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 	</body>
